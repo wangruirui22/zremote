@@ -1,0 +1,13 @@
+{
+  "name": "@zremote/e2e",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:mock": "node --test test/mock/",
+    "test:real": "node --test test/real/"
+  },
+  "dependencies": {
+    "@zremote/gateway": "*"
+  }
+}
